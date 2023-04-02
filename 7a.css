@@ -1,0 +1,48 @@
+.box {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex: 1;
+    background-color: aquamarine;
+    height: 300px;
+    font-size: 50px;
+    font-style: bold; 
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}
+
+.first {
+    align-items: center;
+ 
+}
+
+.second {
+    align-items: center;
+    justify-content: center;
+
+}
+
+.third {
+    align-items: center;
+    justify-content: end;
+
+}
+
+@media (max-width: 480px) {
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+    .box {
+        font-size: 20px;
+        height: 200px;
+        width: 200px;
+        flex: none;
+        justify-content: left;
+    }
+}
+
+

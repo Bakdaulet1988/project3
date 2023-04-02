@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+.hadith {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 400px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: white;
+    }
+    .hadith {
+        color: black;
+        font-family: MyFont;
+        font-size: 16px;
+        margin: 300px;
+    }
+}
+
+
+@font-face {
+    font-family: 'MyFont';
+    src: url(fonts/Montserrat-BlackItalic.ttf);
+}

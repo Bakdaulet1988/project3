@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&family=Roboto:wght@900&display=swap');
+
+@font-face {
+    font-family: 'Baha' ;
+    src: url(./fonts/Oswald-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Baur';
+    src: url(/fonts/Montserrat-Bold.ttf);
+}
+
+.benefits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive, 'Roboto', sans-serif;
+}
+
+.description_benef {
+    margin-bottom: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    text-align: center;
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    font-family: Baha;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+.online {
+    flex: 1;
+}
+
+.A {
+    margin-bottom: 10px;
+    font-family: Baur;
+}
+
+.speed {
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.choice {
+    flex: 1;
+}
+
+@media (max-width: 480px) {
+    .box {
+        flex-direction: column;
+    }
+    .speed {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}

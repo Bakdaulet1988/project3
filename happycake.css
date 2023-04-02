@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'MyFont' ;
+    src: url(./fonts/Baur.woff2);
+}
+
+@font-face {
+    font-family: 'Baha' ;
+    src: url(./fonts/Oswald-Light.ttf);
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    width: 200px;
+    border: 4px solid #F6F6F6;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.img {
+    width: 200px;
+}
+
+
+.img > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px 18px 0 0;
+}
+
+.desc {
+    padding: 10px;
+}
+
+.name {
+    color: #00aeff;
+    font-family: MyFont;
+    margin-bottom: 6px;
+}
+
+.rating {
+    margin-bottom: 6px;
+}
+
+.chars {
+    margin-bottom: 30px;
+    font-family: Baha;
+    font-size: 15px;
+}
+
+.milk {
+    margin-bottom: 52px;
+}
+
+.A {
+    font-family: Baur;
+    margin-bottom: 0;
+}
+
+.B {
+   font-weight: bold;
+   margin-left: 10px;
+}
+
+@media (max-width: 765px) {
+    .card {
+        width: 500px;
+    }
+    .img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 380px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+}
